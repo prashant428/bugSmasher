@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment05</title>
+    <style>
+       #headers{
+            width:480px;
+            margin:auto;
+       }
+
+        #canvas{
+            height: 512px;
+            width:480px;
+            margin:auto;
+            background-image:url('images/leafBackground.jpg');
+        }
+       
+        input{
+            width:200px;
+            height:50px;
+            margin:10px;
+            background-color:green;
+            color:white;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div id="headers">
+    <h1 style="color:green;">BugSmasher!</h1>
+    <input type="button" value="Reset Score" id="resetScore">
+    <input type="button" value="Reset Speed" id="resetSpeed">
+    <p style="font-size:2em; color: red;" id="scoreBox" ></p>
+
+    </div>
+
+    <div id="canvas">
+        <img src="images/bug.png" height="30px" width="30px"; id="bug">
+    </div>
+
+   
+<script src="script.js"></script>
+</body>
+</html>
